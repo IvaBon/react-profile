@@ -1,15 +1,19 @@
 
-
+import './Header.css'
 
 const Header = () =>{
+
+
     return(
-        <header>
-            <h1>Ivan Bonilla</h1>
-            <button><a href="/">About me</a></button>
-            <button><a href="/portfolio">Portfolio</a></button>
-            <button><a href="/contact">Contact</a></button>
-            <button><a href="/resume">Resume</a></button>
-        </header>
+            <header >
+                <h1>Ivan Bonilla</h1>
+                <nav>
+                    <a href="/">About me</a>
+                    <a href="/portfolio">Portfolio</a>
+                    <a href="/contact">Contact</a>
+                    <a href="/resume">Resume</a>
+                </nav>
+            </header>
     )
 }
 
